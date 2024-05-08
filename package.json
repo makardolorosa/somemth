@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "hui": "echo hui",
+    "build": "npx tsc",
+    "dev": "npx tsc -w & nodemon dist/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.8",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "express": "^4.19.2",
+    "react": "^18.3.1"
+  }
+}
